@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- {% load static %} -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish Msg</title>
+    <style>
+        #h11{
+            color:purple;
+        }
+        #h12{
+            color: rgb(9, 135, 55);
+        }
+    </style>
+    <link rel="stylesheet" href="{% static 'css\style.css' %}">
+</head>
+<body>
+    <h1 id="h11">{{insert_msg}}</h1>
+    <h1 id="h12">Current date and time is : {{insert_date}}</h1>
+    <!-- <img src="images/gnImages.jpg" alt="image not found"> -->
+    <!-- <img src="{% static 'images/gnImages.jpg' %}" alt="My image"> -->
+    <img src="{% static 'images/gn.jpg' %}" alt="image 2 not found">
+</body>
+</html>
