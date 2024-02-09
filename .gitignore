@@ -1,1 +1,3 @@
 demo.txt
+temp/*.txt
+!temp/demo.tmp - Copy (5).txt
