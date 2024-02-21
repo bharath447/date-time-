@@ -18,3 +18,11 @@ def wish(request):
     
     my_dict = {"insert_date":date,"insert_msg":msg}
     return render(request,'testapp/wish.html',context=my_dict)
+
+
+def usaView(request):
+    return render(request, 'testapp/usa.html')
+
+
+def indView(request):
+    return render(request, 'testapp/ind.html')
